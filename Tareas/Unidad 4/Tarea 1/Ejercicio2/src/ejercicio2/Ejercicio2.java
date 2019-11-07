@@ -5,6 +5,8 @@
  */
 package ejercicio2;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Brais
@@ -15,8 +17,22 @@ public class Ejercicio2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("hola");
-        // TODO code application logic here
+        Scanner keyboard = new Scanner(System.in);
+        int n1, n2, n3;
+        System.out.println("Introduzca tres números enteros");
+        n1 = keyboard.nextInt();
+        n2 = keyboard.nextInt();
+        n3 = keyboard.nextInt();
+
+        if(n1 < n2 && n2 < n3){
+            System.out.println("Números introducidos en orden creciente");
+        } else if(n1 > n2 && n2 > n3) {
+            System.out.println("Números introducidos en orden decreciente");
+        } else if(n1 == n2 && n1 == n3){
+            System.out.println("Números introducidos iguales");
+        } else {
+            System.out.println("Números introducidos desordenados");
+        }
     }
-    
+
 }
