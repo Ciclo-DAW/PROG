@@ -1,22 +1,38 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejercicio5;
 
-/**
- *
- * @author Brais
- */
+import java.util.Scanner;
+
 public class Ejercicio5 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hola mundo");
+        Scanner teclado = new Scanner(System.in);
+        int pesoMaximo;
+        int pesoElefante;
+        int pesoTotal;
+        int cont;
+        boolean rompio;
+
+        pesoMaximo = teclado.nextInt();
+        while (pesoMaximo != 0) {
+            cont = 0;
+            pesoTotal = 0;
+
+            pesoElefante = teclado.nextInt();
+
+            while(pesoElefante != 0){
+                pesoTotal += pesoElefante;
+
+                if(pesoTotal <= pesoMaximo){
+                    cont++;
+                }
+                pesoElefante = teclado.nextInt();
+            }
+
+            System.out.println(cont);
+
+            pesoMaximo = teclado.nextInt();
+
+        }
     }
     
 }
