@@ -5,17 +5,36 @@
  */
 package ejercicio4;
 
-/**
- *
- * @author Brais
- */
+import java.util.Scanner;
+
 public class Ejercicio4 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int caloriasEntreno;
+        int totalCalorias;
+        int calorias;
+        int numComidas;
+        int numEntrenos;
+
+        Scanner leo = new Scanner(System.in);
+        caloriasEntreno = leo.nextInt();
+
+        while (caloriasEntreno != 0) {
+            numComidas = leo.nextInt();
+            numEntrenos = 0;
+            totalCalorias = 0;
+
+            for(int i = 0;i < numComidas; i++) {
+                totalCalorias += leo.nextInt();
+            }
+            while(totalCalorias > 0){
+                numEntrenos++;
+                totalCalorias -= caloriasEntreno;
+            }
+
+            System.out.println( numEntrenos );
+
+            caloriasEntreno = leo.nextInt();
+        }
     }
-    
 }
