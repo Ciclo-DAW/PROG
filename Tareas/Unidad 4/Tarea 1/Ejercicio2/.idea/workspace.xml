@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035bc02e-71c1-4d71-a45a-efa0029c8054" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Ejercicio3/src/ejercicio3/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio3/src/ejercicio3/Ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.~lock.brais_cao_gonzalez.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/ejercicio2/Ejercicio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/ejercicio2/Ejercicio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ejercicio5/src/ejercicio5/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ejercicio5/src/ejercicio5/Ejercicio5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../brais_cao_gonzalez.odt" beforeDir="false" afterPath="$PROJECT_DIR$/../brais_cao_gonzalez.odt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +28,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Tarea 2/Ejercicio2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

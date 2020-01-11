@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package ejercicio5;
-import java.util.Scanner;
+        import java.util.Scanner;
 /**
  *
  * @author Brais
@@ -38,5 +38,5 @@ public class Ejercicio5 {
 
         }
     }
-    
+
 }
