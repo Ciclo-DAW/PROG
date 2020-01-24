@@ -5,12 +5,17 @@
  */
 package ejercicio1;
 
+import java.util.Scanner;
+
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        SecuenciaNumeros num = new SecuenciaNumeros(22);
+        Scanner t = new Scanner(System.in);
+        int n;
+        System.out.print("Introduzca un número: ");
+        n = t.nextInt();
+        SecuenciaNumeros num = new SecuenciaNumeros(n);
         num.longitudCiclo();
         num.escribeSecuencia();
     }
-    
 }
