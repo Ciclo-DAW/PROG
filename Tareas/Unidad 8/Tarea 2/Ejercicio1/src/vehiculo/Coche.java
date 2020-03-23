@@ -1,6 +1,6 @@
 package vehiculo;
 
-public class Coche {
+public class Coche implements Comparable<Coche> {
 
     private int velocidad;
     private int marcha;
@@ -13,6 +13,18 @@ public class Coche {
     public Coche(int velocidad, int marcha) {
         this.velocidad = velocidad;
         this.marcha = marcha;
+    }
+
+    public int compareTo(Coche c){
+        int resultado = 0;
+        if(this.velocidad < c.velocidad) {
+            resultado = -1;
+        }
+        else if (this.velocidad > c.velocidad) {
+            resultado = 1;
+        }
+
+        return resultado;
     }
 
     public int getVelocidad() {
