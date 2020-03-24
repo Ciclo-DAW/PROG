@@ -32,7 +32,7 @@ public class Ejercicio3 {
             if(numeros[i] > maximo) maximo = numeros[i];
             if(numeros[i] < minimo) minimo = numeros[i];
 
-            if(numeros[i]%2 == 0 && !pares.contains(numeros[i])){
+            if(numeros[i]%2 == 0){
                 pares.add(numeros[i]);
             }
 
