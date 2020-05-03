@@ -23,6 +23,7 @@ public class GUI extends javax.swing.JFrame {
      * Creates new form GUI
      */
     public GUI() {
+        
         initComponents();
         getContentPane().setBackground(Color.orange);
         setGame();
@@ -325,6 +326,7 @@ public class GUI extends javax.swing.JFrame {
     }
     
     public void disableButtons(){
+
         button00.setEnabled(false);
         button01.setEnabled(false);
         button02.setEnabled(false);
@@ -351,13 +353,14 @@ public class GUI extends javax.swing.JFrame {
     }
     
     public void resetGame(){
+
         player = 1;
         moves = 0;
         winner = 0;
         table = new int[3][3];
         winnerLabel.setText("");
         playerLabel.setText("Turno: Jugador " + player);
-        
+     
         button00.setEnabled(true);
         button01.setEnabled(true);
         button02.setEnabled(true);
@@ -367,6 +370,16 @@ public class GUI extends javax.swing.JFrame {
         button20.setEnabled(true);
         button21.setEnabled(true);
         button22.setEnabled(true);
+        
+        button00.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button01.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button02.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button10.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button11.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button12.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button20.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button21.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
+        button22.setDisabledIcon(new ImageIcon(getClass().getResource("../imagenes/disabled.png")));
     }
     /**
      * @param args the command line arguments
