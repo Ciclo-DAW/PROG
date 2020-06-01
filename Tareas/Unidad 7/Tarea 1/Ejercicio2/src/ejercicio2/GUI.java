@@ -13,6 +13,17 @@ import javax.swing.JButton;
  *
  * @author Brais
  */
+
+/*  public class Square {
+     public javax.swing.JButton button = new javax.swing.JButton();
+     public int x;
+     public int y;
+
+     Square(int y, int x){
+         this.y = y;
+         this.x = x;
+     }
+ } */
 public class GUI extends javax.swing.JFrame {
 
     private int player = 1;
